@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Gallery section styling */
+.Gallery-links {
+    width: 80%; 
+    margin: 20px auto; 
+    background-color: #fff; 
+    padding: 20px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Header within the gallery */
+.Gallery-links h2 {
+    color: #333; 
+    text-align: center; 
+}
+
+/* Styling for the gallery container that holds images */
+.Gallery-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    padding: 10px; 
+}
+
+/* Styling for each image */
+.Gallery-container img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; /* Ensures the images cover the area without distorting */
+    margin: 10px; 
+    border-radius: 8px; 
+}
+
+/* Styling for the form in gallery-upload thingy*/
+.gallery-upload form {
+    background-color: #eee; 
+    padding: 15px; 
+    border-radius: 8px; 
+    text-align: center; 
+}
+
+/* styking for Input  */
+input[type="text"], input[type="file"], button {
+    padding: 8px; 
+    margin-top: 5px; 
+    width: calc(100% - 22px); /* Full-width minus padding for inputs */
+    box-sizing: border-box; 
+}
+/*Button style */
+button {
+    background-color: #5cabff; 
+    color: white;
+    border: none; 
+    cursor: pointer; 
+}
